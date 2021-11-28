@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "@emotion/styled";
 import image from "./cryptomonedas.png";
+import Form from "./components/Form";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
 
         <div>
           <Header>Cotiza Criptomonedas al Instante</Header>
+          <Form />
         </div>
       </Container>
     </>
